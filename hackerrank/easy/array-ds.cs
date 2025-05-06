@@ -12,6 +12,8 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
+// https://www.hackerrank.com/challenges/arrays-ds/problem
+
 class Result
 {
     /*
