@@ -1,19 +1,21 @@
-// 
+// https://leetcode.com/problems/add-two-numbers/description/
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     public int val;
- *     public ListNode next;
- *     public ListNode(int val=0, ListNode next=null) {
- *         this.val = val;
- *         this.next = next;
- *     }
- * }
- */
-public class Solution {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
-        
+public class ListNode
+{
+    public int val;
+    public ListNode next;
+    public ListNode(int val = 0, ListNode next = null)
+    {
+        this.val = val;
+        this.next = next;
+    }
+}
+
+public class Solution
+{
+    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    {
+
         ListNode result = new ListNode(-1);
         ListNode current = result;
         int carry = 0;
