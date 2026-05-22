@@ -13,12 +13,9 @@ class URI {
             int a = int.Parse(values[0]);
             int b = int.Parse(values[1]);
 
-            if (b == 0) {
-                Console.WriteLine("divisao impossivel");
-            } else {
-                double result = (double)a / b;
-                Console.WriteLine(result.ToString("F1"));
-            }
+            var result = b == 0 ? "divisao impossivel" : ((double)a / b).ToString("F1");
+
+            Console.WriteLine(result);
         }
 
     }
